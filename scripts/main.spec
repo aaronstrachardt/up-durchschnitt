@@ -41,5 +41,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['UPDurchschnitt.ico'],
+    icon=['C:\\Users\\Aaron\\Documents\\GitHub\\up-durchschnitt\\build\\main\\generated-a103d56f01e33c94e2297a12e125455f0b2ea9018d43ae6a1d50e5f91328829a.ico'],
 )

@@ -1,4 +1,4 @@
-('C:\\Users\\Aaron\\Documents\\GitHub\\up-durchschnitt\\build\\main\\PYZ-00.pyz',
+('C:\\Users\\Aaron\\Documents\\GitHub\\up-durchschnitt\\scripts\\build\\main\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\lib\\_compat_pickle.py',
@@ -194,6 +194,9 @@
   ('hashlib',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('help_window',
+   'C:\\Users\\Aaron\\Documents\\GitHub\\up-durchschnitt\\scripts\\help_window.py',
    'PYMODULE'),
   ('http',
    'C:\\Program '

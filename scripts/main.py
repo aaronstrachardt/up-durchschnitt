@@ -19,7 +19,7 @@ class MainWindow(tk.Frame):
     def create_widgets(self):
         self.buttons=[]
 
-        self.text = tk.Label(self.master, text="Willkommen  zum (in)offiziellen UP Durchschnittsberechner", font=("Bahnschrift", 16), bg="#f2f2f2", fg="#000000")
+        self.text = tk.Label(self.master, text="Willkommen zum (in)offiziellen UP Durchschnittsberechner", font=("Bahnschrift", 16), bg="#f2f2f2", fg="#000000")
         self.text.place(relx=0.5,y=70,anchor="center")
 
         self.file_label = tk.Label(self.master, text="Wähle bitte eine .html-Datei oder .txt-Datei aus", font=("Bahnschrift", 12), bg="#818BAC", fg="#f2f2f2")

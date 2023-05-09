@@ -9,7 +9,6 @@ class HelpWindow(tk.Toplevel):
         self.help_widgets()
 
     def help_widgets(self):
-        self.texts = []
 
         self.text = tk.Label(self, text="Was ist zu tun?", font=("Bahnschrift", 16), bg="#818BAC", fg="#f2f2f2")
         self.text.pack(pady=20,anchor="center")
@@ -28,15 +27,6 @@ class HelpWindow(tk.Toplevel):
 
         self.text5 = tk.Label(self, text="5. Klicke auf \"Berechnen\" und lass dir deinen aktuellen Durchschnitt ausgeben", font=("Bahnschrift", 12), bg="#f2f2f2", fg="#000000")
         self.text5.pack(padx=50, pady=10,anchor="w")
-
-    def change_mode(self):
-
-        for text in self.texts:
-            text.configure(fg="#F2F3F5", bg="#313338")
-
-
-
-
 
 
 

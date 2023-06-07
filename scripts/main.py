@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import filedialog
 import ctypes
 import help_window as help_window
+import math
 
 ctypes.windll.shcore.SetProcessDpiAwareness(1)
 
@@ -113,8 +114,9 @@ class MainWindow(tk.Frame):
             credits_sum += element[1]
 
         avg = mark_sum / credits_sum
+        avg = math.floor(avg * 10) / 10
 
-        self.result_label.configure(text=f"Deine aktuelle Durchschnittsnote: {avg:.2f}")
+        self.result_label.configure(text=f"Deine aktuelle Durchschnittsnote: {avg}")
 
 root = tk.Tk()
 app = MainWindow(master=root)
